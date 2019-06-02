@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Beautext</string>
+
+    <!-- BottomNavigationBar -->
+    <string name="bottom_navigation_bar_step_1_text_view">Text</string>
+    <string name="bottom_navigation_bar_step_2_text_view">Style</string>
+    <string name="bottom_navigation_bar_step_3_text_view">Effect</string>
 </resources>

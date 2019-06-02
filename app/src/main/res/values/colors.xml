@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#ba000d</color>
     <color name="colorAccent">#373B4A</color>
     <color name="launcher_background">#FDFDFD</color>
+
+    <color name="secondary_text">#2c3e50</color>
+    <color name="primary_text">#ecf0f1</color>
 </resources>
