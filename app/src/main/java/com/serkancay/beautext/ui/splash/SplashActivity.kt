@@ -1,6 +1,6 @@
 package com.serkancay.beautext.ui.splash
 
-import com.serkancay.beautext.MainActivity
+import com.serkancay.beautext.ui.main.MainActivity
 import com.serkancay.beautext.ui.base.BaseActivity
 
 /**
