@@ -25,9 +25,11 @@ import kotlinx.android.synthetic.main.widget_step_footer.view.tvStep3
 
 class BottomNavigationBar : LinearLayout {
 
-    val STEP_1 = 0
-    val STEP_2 = 1
-    val STEP_3 = 2
+    companion object {
+        const val STEP_1 = 0
+        const val STEP_2 = 1
+        const val STEP_3 = 2
+    }
 
     private var mActiveStep = 0
 
