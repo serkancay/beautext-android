@@ -5,4 +5,7 @@
     <string name="bottom_navigation_bar_step_1_text_view">Text</string>
     <string name="bottom_navigation_bar_step_2_text_view">Style</string>
     <string name="bottom_navigation_bar_step_3_text_view">Effect</string>
+
+    <!-- TextFragment -->
+    <string name="text_fragment_edit_text_hint">Write something here</string>
 </resources>

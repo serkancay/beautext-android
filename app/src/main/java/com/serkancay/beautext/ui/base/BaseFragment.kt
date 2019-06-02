@@ -12,23 +12,23 @@ import android.view.ViewGroup
  *
  */
 
-class BaseFragment : Fragment() {
+open class BaseFragment : Fragment() {
 
     lateinit var activity: BaseActivity
 
     private lateinit var vgContainer: ViewGroup
 
-    fun getLayoutId(): Int {
+    open fun getLayoutId(): Int {
         return -1
     }
 
-    fun onCreated() {}
+    open fun onCreated() {}
 
-    fun onResumed() {}
+    open fun onResumed() {}
 
-    fun onPaused() {}
+    open fun onPaused() {}
 
-    fun onDestroyed() {}
+    open fun onDestroyed() {}
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         activity = getActivity() as BaseActivity
