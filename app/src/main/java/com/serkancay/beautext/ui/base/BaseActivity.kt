@@ -13,7 +13,7 @@ import android.view.View
  *
  */
 
-class BaseActivity : AppCompatActivity() {
+open class BaseActivity : AppCompatActivity() {
 
     lateinit var context: Context
 
@@ -25,13 +25,13 @@ class BaseActivity : AppCompatActivity() {
 
     fun bindEvents() {}
 
-    fun onCreated() {}
+    open fun onCreated() {}
 
-    fun onResumed() {}
+    open fun onResumed() {}
 
-    fun onPaused() {}
+    open fun onPaused() {}
 
-    fun onDestroyed() {}
+    open fun onDestroyed() {}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
