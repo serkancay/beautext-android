@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.serkancay.beautext.ui.base.FragmentNavigation.Presenter
 
 /**
  *
@@ -12,9 +13,11 @@ import android.view.ViewGroup
  *
  */
 
-open class BaseFragment : Fragment() {
+open class BaseFragment : Fragment(), FragmentNavigation.View {
 
     lateinit var activity: BaseActivity
+
+    protected lateinit var mNavigationPresenter: FragmentNavigation.Presenter
 
     private lateinit var vgContainer: ViewGroup
 
@@ -52,5 +55,9 @@ open class BaseFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
         onDestroyed()
+    }
+
+    override fun attachPresenter(presenter: Presenter) {
+        mNavigationPresenter = presenter
     }
 }
