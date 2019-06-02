@@ -19,7 +19,7 @@ open class BaseActivity : AppCompatActivity() {
 
     lateinit var activity: BaseActivity
 
-    fun getLayoutId(): Int {
+    open fun getLayoutId(): Int {
         return -1
     }
 
