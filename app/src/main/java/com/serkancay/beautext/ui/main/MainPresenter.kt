@@ -16,4 +16,7 @@ class MainPresenter(view: MainView) : Presenter {
     override fun addFragment(fragment: BaseFragment, addToBackStack: Boolean) {
         mView.setFragment(fragment, addToBackStack)
     }
+
+    fun onNextClicked() {
+    }
 }

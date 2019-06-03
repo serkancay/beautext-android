@@ -11,15 +11,31 @@
         android:elevation="4dp"
         app:contentInsetStart="0dp">
 
-        <TextView
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/sedgwick_ave"
-            android:gravity="center"
-            android:text="@string/app_name"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold" />
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sedgwick_ave"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/ibNext"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="@dimen/small_padding"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_next" />
+
+        </FrameLayout>
 
     </android.support.v7.widget.Toolbar>
 

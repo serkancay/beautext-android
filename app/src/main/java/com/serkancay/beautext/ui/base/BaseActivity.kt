@@ -23,7 +23,7 @@ open class BaseActivity : AppCompatActivity() {
         return -1
     }
 
-    fun bindEvents() {}
+    open fun bindEvents() {}
 
     open fun onCreated() {}
 

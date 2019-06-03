@@ -11,4 +11,6 @@ import com.serkancay.beautext.ui.base.BaseFragment
 interface MainView {
 
     fun setFragment(fragment: BaseFragment, addToBackStack: Boolean)
+
+    fun onNextClicked()
 }
