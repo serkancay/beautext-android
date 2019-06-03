@@ -8,6 +8,7 @@ import com.serkancay.beautext.R.layout
 import com.serkancay.beautext.ui.base.BaseActivity
 import com.serkancay.beautext.ui.base.BaseFragment
 import com.serkancay.beautext.ui.text.TextFragment
+import kotlinx.android.synthetic.main.activity_main.bottomNavigationBar
 import kotlinx.android.synthetic.main.activity_main.flContent
 import kotlinx.android.synthetic.main.toolbar_main.ibNext
 
@@ -49,5 +50,6 @@ class MainActivity : BaseActivity(), MainView, OnClickListener {
     }
 
     override fun onNextClicked() {
+        bottomNavigationBar.next()
     }
 }

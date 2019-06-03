@@ -18,5 +18,6 @@ class MainPresenter(view: MainView) : Presenter {
     }
 
     fun onNextClicked() {
+        mView.onNextClicked()
     }
 }

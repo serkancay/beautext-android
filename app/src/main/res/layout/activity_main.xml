@@ -15,6 +15,7 @@
         android:layout_weight="1" />
 
     <com.serkancay.beautext.widget.BottomNavigationBar
+        android:id="@+id/bottomNavigationBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
